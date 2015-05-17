@@ -76,7 +76,9 @@ header{
 }
 .navbar{
 	background-color: #FFD880;
-	border-color:rgba(255, 216, 128, 0.75) !important;
+	background-color: none;
+	border: none !important;
+	//border-color:rgba(255, 216, 128, 0.75) !important;
 }
 .navbar-brand{
 	color: #9F6F00;
