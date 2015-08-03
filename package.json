@@ -1,0 +1,18 @@
+{
+  "name": "Dysartp.com",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+  },
+  "author": "Karl Campanella-Dysart",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "gzippo": "^0.2.0",
+    "morgan": "^1.5.3"
+  },
+   "engines": {
+    "node": ">=0.10.0"
+  }
+}
