@@ -1,9 +1,0 @@
-
-(function() {
-
-  var campaignInfo = {"metadata":{"preview":false,"version":"2.0"},"banner":{"image":{"width":728,"max_width_frac":1.0,"max_height_frac":0.2,"height":90,"src":"https://www.moovmanage.com/system/images/810/original/Greyhound_buttons_banner_728x90.jpg?1404417051","id":810},"url":"https://www.moovmanage.com/public_api/redirect/810?device_id=17482\u0026nocache=1420141604","position":"bottom-centre","button":{"width":32,"height":32,"src":"https://www.moovmanage.com/images/moovad_close_button.png?1418917358"}}};
-  var banner = addMoovAdBanner(campaignInfo);
-
-  
-}());
-
