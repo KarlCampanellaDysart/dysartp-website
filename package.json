@@ -2,7 +2,7 @@
   "name": "dysartp-website",
   "version": "1.0.0",
   "description": "Paul Dysart's website about Tonnetz",
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "postinstall": "cd public && bower install",
     "test": "echo \"Error: no test specified\" && exit 1",
