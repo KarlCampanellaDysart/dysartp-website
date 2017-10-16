@@ -1,9 +1,12 @@
 {
-  "name": "Dysartp.com",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.html",
+  "name": "dysartp-website",
+  "version": "1.0.0",
+  "description": "Paul Dysart's website about Tonnetz",
+  "main": "server.js",
   "scripts": {
+    "postinstall": "cd public && bower install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd public && bower install && cd .. && node server.js"
   },
   "author": "Karl Campanella-Dysart",
   "license": "ISC",
@@ -12,7 +15,7 @@
     "gzippo": "^0.2.0",
     "morgan": "^1.5.3"
   },
-   "engines": {
-    "node": ">=0.10.0"
-  }
+  "engines": {
+    "node": "6.3.1"
+  },
 }
